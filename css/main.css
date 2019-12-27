@@ -435,7 +435,7 @@ footer .copy-right p span {
 
 .nav .menu-nav__item.active > a {
   color: #ff652f;
-  border-bottom: 2px solid #ff652f;
+  border-bottom: 3px solid #ff652f;
 }
 
 .nav .menu-nav__link {
@@ -517,6 +517,294 @@ footer .copy-right p span {
     background: #ff652f;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+  }
+}
+
+.about-main {
+  height: 50%;
+}
+
+.about-main .about__bio-image {
+  height: 50vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/project-5.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/project-5.jpg") center top;
+  background: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: column;
+      -ms-flex: column;
+          flex: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.about-main .about__bio-image .about__bio {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.about-main .about__bio-image .about__bio .text-secondary {
+  padding-bottom: 1rem;
+  background: -webkit-linear-gradient(45deg, #ff652f, #d30796);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-main .about__bio-image .about__bio .text-secondary::before {
+  content: "";
+  position: absolute;
+  margin: 12px 0 0 -100px;
+  width: 5rem;
+  height: 3px;
+  background: #ff652f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.about-main .about__bio-image .about__bio .text-secondary::after {
+  content: "";
+  position: absolute;
+  margin: 12px 0 0 20px;
+  width: 5rem;
+  height: 3px;
+  background: #ff652f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.about-main .about__bio-image .about__bio p {
+  font-size: 1.3rem;
+}
+
+.navigate {
+  width: 80%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navigate .btn {
+  margin: 5px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  background: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  outline: none;
+  -webkit-box-shadow: 3px 5px 0 #ccc;
+          box-shadow: 3px 5px 0 #ccc;
+}
+
+.navigate .btn:active {
+  -webkit-box-shadow: 1px 3px 0 #ccc;
+          box-shadow: 1px 3px 0 #ccc;
+}
+
+.navigate .btn.active {
+  background: crimson;
+}
+
+.navigate .btn-church {
+  border: 1px solid crimson;
+}
+
+.navigate .btn-staff {
+  border: 1px solid blueviolet;
+}
+
+aside .biography-about {
+  width: 93vw;
+  margin: 2rem auto 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+aside .biography-about__mission, aside .biography-about__vision {
+  background: #414141;
+  padding: 0.5rem;
+  border-bottom: 5px solid #ff652f;
+}
+
+aside .biography-about__mission h2, aside .biography-about__vision h2 {
+  margin: 0.5rem 0;
+  color: #ff652f;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(45deg, #ff652f, #d30796);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+aside .biography-about__mission h2::before, aside .biography-about__vision h2::before {
+  content: "";
+  position: absolute;
+  margin: 12px 0 0 -100px;
+  width: 5rem;
+  height: 3px;
+  background: #ff652f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+aside .biography-about__mission h2::after, aside .biography-about__vision h2::after {
+  content: "";
+  position: absolute;
+  margin: 12px 0 0 20px;
+  width: 5rem;
+  height: 3px;
+  background: #ff652f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+aside .biography-about__mission p, aside .biography-about__vision p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+aside .biography-about__mission h3, aside .biography-about__vision h3 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 10px 0;
+  background: -webkit-linear-gradient(45deg, #05ce41, #ff652f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+aside .biography-about__mission ul, aside .biography-about__vision ul {
+  margin-left: 20px;
+  background: #6e6a6a;
+  border-left: 5px solid #ff652f;
+  padding: 10px;
+}
+
+aside .biography-about__mission ul li, aside .biography-about__vision ul li {
+  display: block;
+  padding: 5px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+aside .panel {
+  display: none;
+}
+
+aside .panel.active {
+  display: block;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.staff-bio__body, .staff-bio__bodyTwo, .staff-bio__bodyThree {
+  width: 95vw;
+  margin: 1.5rem auto 0 auto;
+  background: #414141;
+  padding: 0.5rem;
+  border-bottom: 5px solid #ff652f;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .staff-bio__body, .staff-bio__bodyTwo, .staff-bio__bodyThree {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    width: 60vw;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.staff-bio__body__image img {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.staff-bio__body__content {
+  padding: 10px 0;
+}
+
+.staff-bio__body__content h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(45deg, #ff652f, #d30796);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.staff-bio__body__content h3::before {
+  content: "";
+  position: absolute;
+  margin: 12px 0 0 -100px;
+  width: 5rem;
+  height: 3px;
+  background: #ff652f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.staff-bio__body__content h3::after {
+  content: "";
+  position: absolute;
+  margin: 12px 0 0 20px;
+  width: 5rem;
+  height: 3px;
+  background: #ff652f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .staff-bio__body__content h3 {
+    margin-top: 30px;
+  }
+}
+
+.staff-bio__body__content p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.staff-bio__body__content .social__area {
+  text-align: center;
+  padding: 15px 0 0;
+}
+
+.staff-bio__body__content .social__area i {
+  font-size: 2rem;
+}
+
+.staff-bio__body__content .social__area i:hover {
+  color: #ccc;
+}
+
+@media screen and (min-width: 768px) {
+  .staff-bio__body__content {
+    padding: 0 20px;
   }
 }
 
