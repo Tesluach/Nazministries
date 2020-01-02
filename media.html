@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="CSS/simplelightbox.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Naz ministries</title>
+</head>
+
+<body>
+  <!-- The header contains the menu  -->
+  <header>
+    <!-- The burger -->
+    <div class="menu-wrapper">
+      <div class="brand">
+        <a href="index.html">Hope Nazarene Mission Ministries</a>
+      </div>
+
+      <div class="menu-btn">
+        <span class="menu-btn__burger"></span>
+      </div>
+    </div>
+
+    <!-- the navigation -->
+    <nav class="nav">
+      <ul class="menu-nav">
+        <li class="menu-nav__item ">
+          <a href="index.html" class="menu-nav__link">
+            Home
+          </a>
+        </li>
+        <li class="menu-nav__item ">
+          <a href="about.html" class="menu-nav__link">
+            About Us
+          </a>
+        </li>
+        <li class="menu-nav__item active">
+          <a href="media.html" class="menu-nav__link">
+            Media
+          </a>
+        </li>
+        <li class="menu-nav__item ">
+          <a href="events.html" class="menu-nav__link">
+            Events
+          </a>
+        </li>
+        <li class="menu-nav__item ">
+          <a href="contact.html" class="menu-nav__link">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- the main section of the home page -->
+  <main class="about-main">
+    <section class="about">
+      <div class="about__bio-image">
+        <div class="about__bio">
+          <h2 class="text-secondary">Media</h2>
+          <p>
+            Checkout our gallery and videos!
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- The aside section that talks about the welcome and community -->
+  <aside id="tabbed-content">
+    <!-- about navigation buttons -->
+    <div class="navigate">
+      <button data-target="#gallery" class="btn btn-gallery active">
+        Gallery
+      </button>
+      <button data-target="#videos" class="btn btn-videos">Videos</button>
+    </div>
+
+    <!-- the biography section  -->
+    <section class="media-gallery panel active" id="gallery">
+      <div class="gallery">
+        <a href="../dist/img/project-1.jpg" class="image-1">
+          <img src="../dist/img/project-1.jpg" alt="image-1" />
+        </a>
+
+        <a href="../dist/img/project-2.jpg" class="image-2">
+          <img src="../dist/img/project-2.jpg" alt="image-2" />
+        </a>
+
+        <a href="../dist/img/project-3.jpg" class="image-3">
+          <img src="../dist/img/project-3.jpg" alt="image-3" />
+        </a>
+
+        <a href="../dist/img/project-4.jpg" class="image-4">
+          <img src="../dist/img/project-4.jpg" alt="image-4" />
+        </a>
+
+        <a href="../dist/img/project-5.jpg" class="image-5">
+          <img src="../dist/img/project-5.jpg" alt="image-5" />
+        </a>
+
+        <a href="../dist/img/project-6.jpg" class="image-6">
+          <img src="../dist/img/project-6.jpg" alt="image-6" />
+        </a>
+      </div>
+    </section>
+
+    <!-- the staff biography section -->
+    <section class="media-videos panel" id="videos"></section>
+  </aside>
+
+  <!-- The footer is the page -->
+  <footer class="section-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <!-- The social media icons -->
+        <h2>Hope Nazarene Mission Ministries</h2>
+        <a href="https://twitter.com">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://facebook.com">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="https://youtube.com">
+          <i class="fab fa-youtube fa-2x"></i>
+        </a>
+      </div>
+
+      <!-- The contact area -->
+      <div class="footer-div">
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="ministries.html">Ministries</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </div>
+
+      <!-- Subscribe section -->
+      <div class="form-area">
+        <h3>Subscribe</h3>
+        <p>Subscribe for our future newsletter</p>
+        <form action="" name="email-form" method="POST" data-netlify="true">
+          <div class="email-form">
+            <span class="form-control-wrap">
+              <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email" />
+            </span>
+            <button type="submit" class="form-control submit">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="copy-right">
+      <p>
+        Copyright &copy; 2020 <span>Church Of The Nazarene Uganda</span> - All
+        Rights Reserved
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/simple-lightbox.min.js"></script>
+  <script>
+    $(function () {
+      const $gallery = $('.gallery a').simpleLightbox();
+    });
+  </script>
+</body>
+
+</html>
