@@ -928,6 +928,10 @@ aside .location-body__content ul li a i {
   color: #0090ff;
 }
 
+aside .location-body__content ul li a:hover {
+  color: #2099f5;
+}
+
 aside .location-body__content ul #personal {
   font-size: 1.5rem;
   font-weight: bolder;
