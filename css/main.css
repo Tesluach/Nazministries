@@ -1347,6 +1347,41 @@ aside .media-gallery .gallery img {
   }
 }
 
+.ministry-about {
+  width: 93vw;
+  margin: 2rem auto 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.ministry-about__content {
+  background: #414141;
+  padding: 0.5rem;
+  border-bottom: 5px solid #ff652f;
+}
+
+.ministry-about__content h2 {
+  margin: 0.5rem 0;
+  color: #ff652f;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(45deg, #ff652f, #d30796);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ministry-about__content p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 10px;
+}
+
 body {
   background: #272727;
   color: #fff;
