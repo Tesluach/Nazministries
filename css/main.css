@@ -1419,4 +1419,75 @@ main {
   height: 100%;
   width: 100%;
 }
+
+/* Scroll back up */
+.scroll_back_up {
+  position: fixed;
+  z-index: 23;
+  top: 90%;
+  left: 92%;
+  -webkit-animation-name: scrollUp;
+          animation-name: scrollUp;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  display: none;
+}
+
+@-webkit-keyframes scrollUp {
+  0% {
+    top: 90%;
+    left: 92%;
+  }
+  50% {
+    top: 87%;
+    left: 89;
+  }
+}
+
+@keyframes scrollUp {
+  0% {
+    top: 90%;
+    left: 92%;
+  }
+  50% {
+    top: 87%;
+    left: 89;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* the scroll effect */
+  .scroll_back_up {
+    top: 90%;
+    left: 85%;
+    -webkit-animation-name: scrollUp;
+            animation-name: scrollUp;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes scrollUp {
+    0% {
+      top: 90%;
+      left: 85%;
+    }
+    50% {
+      top: 87%;
+      left: 83;
+    }
+  }
+  @keyframes scrollUp {
+    0% {
+      top: 90%;
+      left: 85%;
+    }
+    50% {
+      top: 87%;
+      left: 83;
+    }
+  }
+}
 /*# sourceMappingURL=main.css.map */
