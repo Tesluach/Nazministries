@@ -30,14 +30,14 @@
   content: open-quote;
   color: #ccc;
   font-family: 'Berkshire Swash';
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .home__intro-heading blockquote::after {
   content: close-quote;
   color: #ccc;
   font-family: 'Berkshire Swash';
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .home__intro-heading #every {
@@ -553,8 +553,8 @@ footer .copy-right p span {
 .about-main .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/project-5.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/project-5.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/logo.png") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/logo.png") center top;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -616,6 +616,20 @@ footer .copy-right p span {
 
 .about-main .about__bio-image .about__bio p {
   font-size: 1.3rem;
+}
+
+.about-main .about__bio-image .about__bio p::before {
+  content: open-quote;
+  color: #ccc;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5em;
+}
+
+.about-main .about__bio-image .about__bio p::after {
+  content: close-quote;
+  color: #ccc;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -858,8 +872,8 @@ aside .panel.active {
 .contact-main .contact__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/project-6.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/project-6.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/logo.png") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/logo.png") center top;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -921,6 +935,20 @@ aside .panel.active {
 
 .contact-main .contact__bio-image .contact__bio p {
   font-size: 1.3rem;
+}
+
+.contact-main .contact__bio-image .contact__bio p::before {
+  content: open-quote;
+  color: #ccc;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5em;
+}
+
+.contact-main .contact__bio-image .contact__bio p::after {
+  content: close-quote;
+  color: #ccc;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -1008,8 +1036,8 @@ aside .location-body__content ul #personal {
 .media-main .media__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/project-11.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/project-11.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/logo.png") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/logo.png") center top;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -1073,6 +1101,20 @@ aside .location-body__content ul #personal {
   font-size: 1.3rem;
 }
 
+.media-main .media__bio-image .media__bio p::before {
+  content: open-quote;
+  color: #ccc;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5em;
+}
+
+.media-main .media__bio-image .media__bio p::after {
+  content: close-quote;
+  color: #ccc;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5em;
+}
+
 @media screen and (min-width: 1024px) {
   .media-main .media__bio-image .media__bio p {
     font-size: 1.8rem;
@@ -1128,8 +1170,8 @@ aside .media-gallery .gallery img {
 .event-main .event__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/church.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/church.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/logo.png") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/logo.png") center top;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -1191,6 +1233,20 @@ aside .media-gallery .gallery img {
 
 .event-main .event__bio-image .event__bio p {
   font-size: 1.3rem;
+}
+
+.event-main .event__bio-image .event__bio p::before {
+  content: open-quote;
+  color: #ccc;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5em;
+}
+
+.event-main .event__bio-image .event__bio p::after {
+  content: close-quote;
+  color: #ccc;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 1024px) {
@@ -1258,8 +1314,8 @@ aside .media-gallery .gallery img {
 .ministry-main .ministry__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/project-9.jpg") center top;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/project-9.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/logo.png") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/logo.png") center top;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -1321,6 +1377,20 @@ aside .media-gallery .gallery img {
 
 .ministry-main .ministry__bio-image .ministry__bio p {
   font-size: 1.3rem;
+}
+
+.ministry-main .ministry__bio-image .ministry__bio p::before {
+  content: open-quote;
+  color: #ccc;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5em;
+}
+
+.ministry-main .ministry__bio-image .ministry__bio p::after {
+  content: close-quote;
+  color: #ccc;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 1024px) {
