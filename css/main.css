@@ -297,23 +297,18 @@ footer .copy-right p span {
   -webkit-text-fill-color: transparent;
 }
 
-.menu-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .menu-wrapper .brand {
   font-size: 1.2rem;
   text-transform: uppercase;
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menu-wrapper .brand img {
@@ -330,10 +325,11 @@ footer .copy-right p span {
 
 .menu-wrapper .brand a {
   font-family: 'Kavoon Regular';
-  background: -webkit-linear-gradient(45deg, yellow, #09f529);
+  background: -webkit-linear-gradient(45deg, #f8f8e4, #09f529);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
+  padding-left: 5px;
 }
 
 .menu-wrapper .menu-btn {
