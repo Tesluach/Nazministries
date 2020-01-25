@@ -1159,6 +1159,43 @@ aside .media-gallery .gallery img {
   width: 100%;
 }
 
+.media-videos {
+  text-align: center !important;
+}
+
+.media-videos-section {
+  margin: 0 auto;
+  width: 95vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.media-videos-section iframe {
+  width: 100%;
+}
+
+.media-videos .more-videos {
+  margin: 50px auto;
+  background: crimson;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  padding: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 3px #000;
+          box-shadow: 5px 5px 3px #000;
+}
+
+.media-videos .more-videos:active {
+  -webkit-box-shadow: 2px 2px 2px #000;
+          box-shadow: 2px 2px 2px #000;
+}
+
 .event-main {
   height: 50%;
 }
