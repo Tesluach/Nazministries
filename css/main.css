@@ -19,6 +19,12 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 768px) {
+  .home {
+    background-position: 50% 50%;
+  }
+}
+
 .home__intro-heading {
   font-size: 30px;
   font-weight: 700;
@@ -1171,6 +1177,16 @@ aside .media-gallery .gallery img {
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .media-videos-section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
 }
 
 .media-videos-section iframe {
