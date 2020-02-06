@@ -209,7 +209,7 @@
 
   <!-- scroll back up -->
   <div class="scroll_back_up">
-    <a href="#top"><i class="fa fa-chevron-circle-up fa-2x" style="color: #03b4c8;"></i></a>
+    <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -219,6 +219,16 @@
   <script>
     $(function () {
       const $gallery = $('.gallery a').simpleLightbox();
+    });
+
+    // scrolling back up
+    const scrolling = document.querySelector('.scroll_back_up');
+    window.addEventListener('scroll', e => {
+      if (window.scrollY) {
+        scrolling.classList.add('active');
+      } else {
+        scrolling.classList.remove('active');
+      }
     });
   </script>
 </body>

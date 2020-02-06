@@ -73,13 +73,3 @@ tabs.addEventListener('click', (e) => {
 //     }
 //   })
 // );
-
-//    The javaScript effect on scroll // scrolling back up
-var scrolling = document.querySelector(".scroll_back_up");
-window.addEventListener("scroll", e => {
-  if (window.scrollY) {
-    scrolling.style.display = "block";
-  } else {
-    scrolling.style.display = "none";
-  }
-});
