@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Allura");
+@import url("https://fonts.googleapis.com/css?family=Allura|Montserrat|Kaushan+Script|Berkshire+Swash+Regular");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -57,7 +57,7 @@
 
 .home .scripture {
   color: #068a83;
-  font-family: 'Kaushan Script Regular';
+  font-family: 'Kaushan Script';
   font-size: 1.2rem;
   font-weight: bolder;
 }
