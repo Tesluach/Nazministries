@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Helvetica+Neue|Allura+regular|Kaushan+Script+Regular");
+@import url("https://fonts.googleapis.com/css?family=Allura|Helvetica+Neue|Kaushan+Script");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -48,7 +48,7 @@
 }
 
 .home__intro-heading #every {
-  font-family: 'Allura Regular' !important;
+  font-family: 'Allura' !important;
 }
 
 .home__intro-heading #love {
