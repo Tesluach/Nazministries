@@ -29,26 +29,26 @@
 .home__intro-heading {
   font-size: 30px;
   font-weight: 700;
-  font-family: Montserrat, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
   margin-bottom: 25px;
 }
 
 .home__intro-heading blockquote::before {
   content: open-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
 .home__intro-heading blockquote::after {
   content: close-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
 .home__intro-heading #every {
-  font-family: 'Allura' !important;
+  font-family: "Allura" !important;
 }
 
 .home__intro-heading #love {
@@ -57,7 +57,7 @@
 
 .home .scripture {
   color: #068a83;
-  font-family: 'Kaushan Script';
+  font-family: "Kaushan Script";
   font-size: 1.2rem;
   font-weight: bolder;
 }
@@ -304,6 +304,104 @@ footer .copy-right p span {
   -webkit-text-fill-color: transparent;
 }
 
+.covid-section {
+  margin-top: 2.5rem;
+  width: 95% !important;
+}
+
+.covid-section h2 {
+  margin: 0.5rem 0;
+  color: #ff652f;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(45deg, #ff652f, #d30796);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.covid-section h2::before {
+  content: "";
+  position: absolute;
+  margin: 12px 0 0 -100px;
+  width: 5rem;
+  height: 3px;
+  background: #ff652f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.covid-section h2::after {
+  content: "";
+  position: absolute;
+  margin: 12px 0 0 20px;
+  width: 5rem;
+  height: 3px;
+  background: #ff652f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.covid-section .covid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+.covid-section .covid-image {
+  margin: 0 auto !important;
+}
+
+.covid-section .covid-info {
+  width: 95% !important;
+  padding: 5px !important;
+}
+
+.covid-section .covid-info p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+.covid-section .covid-info h3 {
+  margin: 0.5rem 0;
+  color: #ff652f;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(45deg, #ff652f, #d30796);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.covid-section .covid-info h3::before {
+  content: "";
+  position: absolute;
+  margin: 12px 0 0 -100px;
+  width: 5rem;
+  height: 3px;
+  background: #ff652f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.covid-section .covid-info h3::after {
+  content: "";
+  position: absolute;
+  margin: 12px 0 0 20px;
+  width: 5rem;
+  height: 3px;
+  background: #ff652f;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
 .menu-wrapper .brand {
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -331,7 +429,7 @@ footer .copy-right p span {
 }
 
 .menu-wrapper .brand a {
-  font-family: 'Kavoon';
+  font-family: "Kavoon";
   background: -webkit-linear-gradient(45deg, #f8f8e4, #09f529);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -547,6 +645,18 @@ footer .copy-right p span {
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   }
+  .covid-section {
+    width: 95% !important;
+  }
+  .covid-section .covid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .covid-section .covid-image {
+    margin: auto !important;
+  }
 }
 
 .about-main {
@@ -624,14 +734,14 @@ footer .copy-right p span {
 .about-main .about__bio-image .about__bio p::before {
   content: open-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
 .about-main .about__bio-image .about__bio p::after {
   content: close-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
@@ -943,14 +1053,14 @@ aside .panel.active {
 .contact-main .contact__bio-image .contact__bio p::before {
   content: open-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
 .contact-main .contact__bio-image .contact__bio p::after {
   content: close-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
@@ -1107,14 +1217,14 @@ aside .location-body__content ul #personal {
 .media-main .media__bio-image .media__bio p::before {
   content: open-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
 .media-main .media__bio-image .media__bio p::after {
   content: close-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
@@ -1288,14 +1398,14 @@ aside .media-gallery .gallery img {
 .event-main .event__bio-image .event__bio p::before {
   content: open-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
 .event-main .event__bio-image .event__bio p::after {
   content: close-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
@@ -1432,14 +1542,14 @@ aside .media-gallery .gallery img {
 .ministry-main .ministry__bio-image .ministry__bio p::before {
   content: open-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
 .ministry-main .ministry__bio-image .ministry__bio p::after {
   content: close-quote;
   color: #ccc;
-  font-family: 'Berkshire Swash';
+  font-family: "Berkshire Swash";
   font-size: 1.5em;
 }
 
@@ -1488,7 +1598,7 @@ body {
   background: #272727;
   color: #fff;
   height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
 }
 
